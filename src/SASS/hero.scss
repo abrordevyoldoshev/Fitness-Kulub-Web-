@@ -17,7 +17,7 @@
       border-radius: 4rem;
       width: fit-content;
       padding: 20px 13px;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       text-transform: uppercase;
       color: #eee;
       position: relative;
@@ -45,7 +45,7 @@
       flex-direction: column;
       gap: 1.5rem;
       text-transform: uppercase;
-      font-size: 6rem;
+      font-size: 4.5rem;
       font-weight: bold;
       color: #eee;
 
@@ -55,7 +55,7 @@
           font-weight: 200;
           text-transform: none;
           letter-spacing: 1px;
-          width: 90%;
+          width: 80%;
         }
       }
     }
@@ -84,7 +84,7 @@
 
     .btn {
       background-color: wheat;
-      padding: 1rem 1.5rem;
+      padding: .8rem 1.3rem;
       font-weight: bold;
       margin-right: 2rem;
       transition: 300ms all;
@@ -97,18 +97,17 @@
     .btn:nth-of-type(1) {
       background-color: $orange;
       color: #3c3f45;
-      border: none;
-
+      //border: none;
+      border: 1px solid $orange;
       &:hover {
         background-color: transparent;
-        border: 2px solid $orange;
+        border: 1px solid #eee;
         color: #eeeeee;
       }
 
     }
 
     .btn:nth-of-type(2) {
-      border: 2px solid;
       background-color: transparent;
       border: 1px solid $orange;
 
@@ -169,15 +168,19 @@
   .hero_img {
     position: absolute;
     top: 10rem;
-    right: 12rem;
+    right: 10rem;
     width: 30rem;
     z-index: 1;
   }
   .hero-img-back{
     position: absolute;
     top: 2rem;
-    right: 16rem;
+    right: 10rem;
     width: 12rem;
+  }
+  .calories{
+    display: flex;
+    gap: 2rem;
   }
 
 }

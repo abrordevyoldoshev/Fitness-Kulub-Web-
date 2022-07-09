@@ -69,7 +69,8 @@ function Hero(props) {
             <img src={hero_img_backg} alt="" className='hero-img-back'/>
             {/*Right Hero Background-img end  / Right Hero Background-img tugadi */}
             {/*calories*/}
-            <div className="calories">
+
+                <div className="calories">
                 <img src={Calories} alt=""/>
                 <span>Calories Burned</span><span>222 kcal</span>
             </div>
