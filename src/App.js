@@ -2,14 +2,17 @@ import React from "react";
 import './SASS/import.scss'
 import Hero from "./Components/Hero";
 import Programs from "./Programs/Programs";
-function App() {
-  return (
-    <div className='app'>
-   <Hero/>
-   <Programs/>
+import Reasons from "./Reasons/Reasons";
 
-    </div>
-  );
+function App() {
+    return (
+        <div className='app'>
+            <Hero/>
+            <Programs/>
+            <Reasons/>
+
+        </div>
+    );
 }
 
 export default App;
