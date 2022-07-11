@@ -13,8 +13,8 @@ function Programs() {
       </div>
       {/*Header section end*/}
       <div className="program-categories">
-        {ProgramsData.map((programs) => (
-          <div className="category">
+        {ProgramsData.map((programs,index) => (
+          <div className="category" key={index}>
             {programs.image}
             <span>{programs.heading}</span>
             <span>{programs.details}</span>

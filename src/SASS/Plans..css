@@ -1,0 +1,11 @@
+.plans-container .plans-content {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3.5rem;
+  justify-content: center;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=Plans..css.map */

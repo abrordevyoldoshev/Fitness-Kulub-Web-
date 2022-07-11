@@ -18,6 +18,7 @@ export const plansData = [
       "Access to The Community",
     ],
   },
+
   {
     icon: (
       <svg
